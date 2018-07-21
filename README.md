@@ -3,7 +3,10 @@ This repo provide you a single network class in Swift. It's very helpful when yo
 
 # How to use?
 Just drag Request.swift to your project. You can rename it to your coding convention rule. 
-Then just call             Request().request(withURL: url, method: HTTPMethod.post, params: params, headers: httpHeader, timeout: 15, encode: nil, onSuccess: { (data) in
+Then just call  
+
+let url = "http://yoururl"
+Request().request(withURL: url, method: HTTPMethod.get, params: nil, headers: nil, timeout: 15, encode: nil, onSuccess: { (data) in
   // Success
 , { (error) in
   // Fail and errors 
