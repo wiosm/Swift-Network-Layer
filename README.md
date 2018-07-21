@@ -8,9 +8,9 @@ Then just call
 let url = "http://yoururl" </br>
 
 
-Request().request(withURL: url, method: HTTPMethod.get, params: nil, headers: nil, timeout: 15, encode: nil, onSuccess: { (data) in
+Request().request(withURL: url, method: HTTPMethod.get, params: nil, headers: nil, timeout: 15, encode: nil, onSuccess: { (data) in  </br>
   // Success
-, { (error) in
-  // Fail and errors 
+, { (error) in  </br>
+  // Fail and errors  </br>
 })
 
