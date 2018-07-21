@@ -24,7 +24,6 @@ enum HTTPMethod: String {
 }
 
 class Request: NSObject {
-    let auth = TMNAuth.sharedInstance
     let defaultTimeout:TimeInterval = 15
     override init() {
         
